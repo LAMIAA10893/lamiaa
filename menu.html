@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu des Plats</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Menu des Plats</h1>
+        <div class="dish" onclick="toggleIngredients('ingredients1')">
+            <h2>Plat 1: Spaghetti Bolognese</h2>
+            <ul id="ingredients1" class="ingredients">
+                <li>Spaghetti</li>
+                <li>Viande hachée</li>
+                <li>Tomates</li>
+                <li>Oignons</li>
+                <li>Herbes aromatiques</li>
+            </ul>
+        </div>
+        <div class="dish" onclick="toggleIngredients('ingredients2')">
+            <h2>Plat 2: Poulet Curry</h2>
+            <ul id="ingredients2" class="ingredients">
+                <li>Filet de poulet</li>
+                <li>Pâte de curry</li>
+                <li>Crème de coco</li>
+                <li>Riz basmati</li>
+                <li>Légumes variés</li>
+            </ul>
+        </div>
+        <div class="dish" onclick="toggleIngredients('ingredients3')">
+            <h2>Plat 3: Salade César</h2>
+            <ul id="ingredients3" class="ingredients">
+                <li>Laitue romaine</li>
+                <li>Croutons</li>
+                <li>Poulet grillé</li>
+                <li>Parmesan</li>
+                <li>Sauce César</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
